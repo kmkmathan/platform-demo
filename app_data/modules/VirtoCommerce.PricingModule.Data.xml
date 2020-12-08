@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VirtoCommerce.PricingModule.Data</name>
+    </assembly>
+    <members>
+        <member name="M:VirtoCommerce.PricingModule.Data.Search.ProductPriceDocumentChangesProvider.GetProductIdsForChangedPricesAsync(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Retrieves all price changes and groups them by the product Id they are associated with.
+            </summary>
+            <param name="startDate">The date time period from</param>
+            <param name="endDate">The date time period to</param>
+            <returns>The unique list of products identifiers associated with changed prices for passed period</returns>
+        </member>
+        <member name="T:VirtoCommerce.PricingModule.Data.Services.DefaultPricingPriorityFilterPolicy">
+            <summary>
+             Represents a implementation  for filtering  prices depends on order of the given price lists and other business rules
+            </summary>
+        </member>
+        <member name="M:VirtoCommerce.PricingModule.Data.Services.PricingServiceImpl.EvaluatePriceListsAsync(VirtoCommerce.PricingModule.Core.Model.PriceEvaluationContext)">
+            <summary>
+            Evaluate pricelists for special context. All resulting pricelists ordered by priority
+            </summary>
+            <param name="evalContext"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VirtoCommerce.PricingModule.Data.Services.PricingServiceImpl.EvaluateProductPricesAsync(VirtoCommerce.PricingModule.Core.Model.PriceEvaluationContext)">
+            <summary>
+            Evaluation product prices.
+            Will get either all prices or one price per currency depending on the settings in evalContext.
+            </summary>
+            <param name="evalContext"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

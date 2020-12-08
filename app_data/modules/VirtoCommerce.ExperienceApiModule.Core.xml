@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VirtoCommerce.ExperienceApiModule.Core</name>
+    </assembly>
+    <members>
+        <member name="M:VirtoCommerce.ExperienceApiModule.Core.Extensions.ResolveFieldContextExtensions.GetValue``1(GraphQL.Types.IResolveFieldContext,System.String,``0)">
+            <summary>
+            Get value from user context
+            </summary>
+            <typeparam name="T">Type of T</typeparam>
+            <param name="resolveContext">GraphQL UserContext</param>
+            <param name="key">Search key</param>
+            <param name="defaultValue">Default return if value not founded in UserContext</param>
+            <returns>Return value of type <typeparamref name="T"/> from UserContext or <paramref name="defaultValue"/></returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="T:VirtoCommerce.ExperienceApiModule.Core.Infrastructure.ISchemaTypeBuilder`1">
+            <summary>
+            GraphQL schema type  builder used for declaration of new type extension via fluent syntax and specific extension methods as 'this' argument.
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.PricelistId">
+            <summary>
+            Price list id
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.Currency">
+            <summary>
+            Currency
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.ProductId">
+            <summary>
+            Product id
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.DiscountPercent">
+            <summary>
+            Relative benefit. 30%
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.ListPrice">
+            <summary>
+            Original product price (old price)
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.ListPriceWithTax">
+            <summary>
+            Original product price (old price) including tax
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.SalePrice">
+            <summary>
+            Sale product price (new price)
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.SalePriceWithTax">
+            <summary>
+            Sale product price (new price) including tax
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.ActualPrice">
+            <summary>
+            Actual price includes all kind of discounts
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.ActualPriceWithTax">
+            <summary>
+            Actual price includes all kind of discounts including tax
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.MinQuantity">
+            <summary>
+            It defines the minimum quantity of products
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.TierPrices">
+            <summary>
+            Tier prices
+            </summary>
+        </member>
+        <member name="M:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.GetTierPrice(System.Int32)">
+            <summary>
+            Return tire price for passed quantity
+            </summary>
+            <param name="quantity"></param>
+            <returns></returns>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.TaxTotal">
+            <summary>
+            Gets or sets the value of total shipping tax amount
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.TaxType">
+            <summary>
+            Gets or sets the value of shipping tax type
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.ProductPrice.TaxDetails">
+            <summary>
+            Gets or sets the collection of line item tax details lines
+            </summary>
+            <value>
+            Collection of TaxDetail objects
+            </value>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.TierPrice.ActualPrice">
+            <summary>
+            Actual price includes all kind of discounts
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.TierPrice.TaxTotal">
+            <summary>
+            Gets or sets the value of total shipping tax amount
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.TierPrice.TaxType">
+            <summary>
+            Gets or sets the value of shipping tax type
+            </summary>
+        </member>
+        <member name="P:VirtoCommerce.ExperienceApiModule.Core.Models.TierPrice.TaxDetails">
+            <summary>
+            Gets or sets the collection of line item tax details lines
+            </summary>
+            <value>
+            Collection of TaxDetail objects
+            </value>
+        </member>
+        <member name="T:VirtoCommerce.ExperienceApiModule.Core.XCoreAnchor">
+            <summary>
+            Anchor class for easy DI GraphQL schemas
+            </summary>
+        </member>
+    </members>
+</doc>

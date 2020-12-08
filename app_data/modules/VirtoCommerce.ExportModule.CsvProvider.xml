@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VirtoCommerce.ExportModule.CsvProvider</name>
+    </assembly>
+    <members>
+        <member name="T:VirtoCommerce.ExportModule.CsvProvider.MetadataFilteredMap`1">
+            <summary>
+            Custom ClassMap implementation which includes type properties. Supports nested properties.
+            Does not map <see cref="T:System.Collections.Generic.IEnumerable`1"/> as these are not representable in CSV structure in suitable manner.
+            </summary>
+            <typeparam name="T">Mapped type.</typeparam>
+        </member>
+    </members>
+</doc>
